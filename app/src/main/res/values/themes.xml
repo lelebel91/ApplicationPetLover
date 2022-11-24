@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ApplicationPetLover" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Creation du composant titre par défaut-->
+    <!-- Création d'un nouveau style, pack qui regroupe les propriétés d'un composant -->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/gris</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/comic</item>
+
+    </style>
+
+    <!-- Creation du composant sous titre par défaut  -->
+    <!-- Absorption du style précédent avec une diff seulement sur la couleur -->
+    <style name="SubtitleTextStyle" parent="DefaultTextStyle">
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <!-- Creation du composant sous sous titre par défaut  -->
+    <!-- Absorption du style Subtitle avec une diff seulement sur la taille -->
+    <style name="TitleTextStyle" parent="SubtitleTextStyle">
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+</resources>

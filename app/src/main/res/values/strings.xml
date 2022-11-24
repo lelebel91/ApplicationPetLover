@@ -1,0 +1,32 @@
+<resources>
+    <!-- PetLover present sur toutes les pages -->
+    <string name="app_name">PetLover</string>
+
+    <!-- Page d'acceuil -->
+    <!-- On met tout les textes qui sont sur cette première page-->
+    <string name="home_page_title">A decouvrir </string>
+    <string name="home_page_last_animaux">Derniers candidats</string>
+
+    <!-- Page de collection  -->
+    <string name="collection_page_title">Les animaux </string>
+
+    <!-- Page ajout d'animal-->
+    <string name="add_animal_page_title">Ajouter un animal </string>
+    <string name="add_animal_page_load_button">Charger une image </string>
+    <string name="add_animal_page_name">@string/item_animal_name </string>
+    <string name="add_animal_page_Description">@string/item_animal_description </string>
+
+
+    <string-array name="add_animal_page_sexe">
+        <item>Sexe : male</item>
+        <item>Sexe : femelle</item>
+
+    </string-array>
+
+    <string name="add_animal_page_add_button">Ajouter </string>
+
+    <!-- Animal customise  -->
+    <string name="item_animal_name">Nom </string>
+    <string name="item_animal_description">Derscription</string>
+
+</resources>
